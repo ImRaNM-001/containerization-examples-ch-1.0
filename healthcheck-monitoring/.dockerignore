@@ -1,0 +1,11 @@
+# Ignore binary and build artifacts
+*.out
+*.log
+*.tmp
+# Ignore OS and editor files
+.DS_Store
+*.swp
+*.swo
+# Ignore Docker-related files that shouldn't be in the build context
+Dockerfile*
+README.md

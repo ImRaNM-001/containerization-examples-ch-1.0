@@ -1,0 +1,30 @@
+# Ignore Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore database and log files
+*.db
+*.sqlite3
+*.log
+
+# Ignore version control and test files
+.git/
+tests/
+
+# Ignore Docker and build files
+Dockerfile*
+README*.md
+.env
+.venv/
+venv/
+
+# Ignore OS and editor files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Ignore anything not needed for building the FastAPI app
