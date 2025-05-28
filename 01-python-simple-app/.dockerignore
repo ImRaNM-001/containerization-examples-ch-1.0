@@ -1,0 +1,50 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Database files (development)
+*.db
+*.sqlite3
+
+# Docker-related files that shouldn't be in build context
+Dockerfile
+README.md
+
+# Git files
+.git/
+.gitignore
+
+# Test files and coverage reports
+tests/
+test_*.py
+*_test.py
+.coverage
+htmlcov/
+
+# Documentation
+docs/
+*.md

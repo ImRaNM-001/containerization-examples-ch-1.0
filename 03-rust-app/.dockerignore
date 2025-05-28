@@ -1,0 +1,32 @@
+# Ignore build output
+/target/
+
+# Ignore IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and temporary files
+.env
+.env.*
+*.tmp
+*~
+
+# Ignore Docker-related files
+.dockerignore
+
+# Ignore test and backup files
+*.rs.bk
+tasks.json
+
+# Node/JS/TS build artifacts (for the React frontend in this folder)
+node_modules/
+dist/
+
+# Misc
+# Add more patterns as needed

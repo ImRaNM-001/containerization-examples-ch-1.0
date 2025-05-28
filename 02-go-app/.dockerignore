@@ -1,0 +1,22 @@
+# Ignore the Docker build output binary
+/app
+
+# Ignore Go build cache and modules (if any are created locally)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Ignore Go workspace files
+*.out
+
+# Ignore editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Ignore version control directories
+.git
